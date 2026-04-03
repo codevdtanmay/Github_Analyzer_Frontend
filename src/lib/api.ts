@@ -6,7 +6,7 @@ export type ApiError = {
   details?: unknown
 }
 
-const DEFAULT_BASE_URL = 'http://localhost:3000'
+const DEFAULT_BASE_URL = 'https://github-analyzer-backend-vleh.onrender.com'
 
 function getBaseUrl() {
   const envUrl = import.meta.env.VITE_API_BASE_URL as string | undefined
