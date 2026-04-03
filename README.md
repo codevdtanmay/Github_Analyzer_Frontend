@@ -1,73 +1,71 @@
-# React + TypeScript + Vite
+---
+project:
+  name: GitHub Analyzer
+  type: Frontend
+  description: AI-powered GitHub profile & repository analyzer
+  author: Tanmay
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+links:
+  live: https://github-analyzer-frontend-one.vercel.app/
+  backend: https://github-analyzer-backend-vleh.onrender.com/
 
-Currently, two official plugins are available:
+tech_stack:
+  frontend: [React (Vite), Tailwind CSS, Axios, Recharts]
+  backend: [Node.js, Express.js, Gemini API, MongoDB]
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+<h1 align="center">🚀 GitHub Analyzer</h1>
+<p align="center">
+AI-powered web app to analyze GitHub profiles & repositories with smart insights and scoring
+</p>
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## ✨ Features
+- 🔍 Analyze GitHub users & repositories  
+- 🤖 AI-generated insights and feedback  
+- 📊 Code quality scoring  
+- 🕘 History tracking  
+- ⚡ Fast and responsive UI  
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+## 🌐 Live Demo
+👉[ Click ](https://github-analyzer-frontend-one.vercel.app/) 
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+---
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+## ⚙️ Setup
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+### 1. Clone
+git clone https://github.com/codevdtanmay/Github-Analyzer-Frontend.git
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+### 2. Install
+npm install
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+### 3. Environment
+Create `.env`:
+VITE_API_URL=http://localhost:3000
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+### 4. Run
+npm run dev
+
+---
+
+## 🚀 Deployment
+- Frontend → Vercel  
+- Backend → Render  
+
+---
+
+## ⚠️ Notes
+- Use environment variables (no hardcoding)  
+- Ensure backend is running locally  
+
+---
+
+  
+
+---
+
+<p align="center">⭐ Star this repo if you found it useful</p>
