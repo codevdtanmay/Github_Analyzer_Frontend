@@ -1,13 +1,13 @@
 ---
 project:
-  name: GitHub Analyzer
+  name: AI GitHub Repo Analyzer
   type: Frontend
   description: AI-powered GitHub profile & repository analyzer
   author: Tanmay
 
 links:
-  live: https://github-analyzer-frontend-one.vercel.app/
-  backend: https://github-analyzer-backend-vleh.onrender.com/
+  live: [Check Live Website](https://github-analyzer-frontend-one.vercel.app/)
+  backend: [Backend Deployed](https://github-analyzer-backend-vleh.onrender.com/)
 
 tech_stack:
   frontend: [React (Vite), Tailwind CSS, Axios, Recharts]
@@ -31,7 +31,7 @@ AI-powered web app to analyze GitHub profiles & repositories with smart insights
 ---
 
 ## 🌐 Live Demo
-👉[ Click ](https://github-analyzer-frontend-one.vercel.app/) 
+👉[ Click Here ](https://github-analyzer-frontend-one.vercel.app/) 
 
 ---
 
