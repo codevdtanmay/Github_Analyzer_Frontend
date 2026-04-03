@@ -5,10 +5,6 @@ project:
   description: AI-powered GitHub profile & repository analyzer
   author: Tanmay
 
-links:
-  live: [Check Live Website](https://github-analyzer-frontend-one.vercel.app/)
-  backend: [Backend Deployed](https://github-analyzer-backend-vleh.onrender.com/)
-
 tech_stack:
   frontend: [React (Vite), Tailwind CSS, Axios, Recharts]
   backend: [Node.js, Express.js, Gemini API, MongoDB]
