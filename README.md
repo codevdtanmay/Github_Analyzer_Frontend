@@ -1,67 +1,56 @@
----
-project:
-  name: AI GitHub Repo Analyzer
-  type: Frontend
-  description: AI-powered GitHub profile & repository analyzer
-  author: Tanmay
+<h1 align="center">🚀 AI GitHub Repo Analyzer</h1>
 
-tech_stack:
-  frontend: [React (Vite), Tailwind CSS, Axios, Recharts]
-  backend: [Node.js, Express.js, Gemini API, MongoDB]
----
-
-<h1 align="center">🚀 GitHub Analyzer</h1>
 <p align="center">
-AI-powered web app to analyze GitHub profiles & repositories with smart insights and scoring
+AI-powered web app to analyze GitHub profiles & repositories with smart insights, scoring, and suggestions
 </p>
+
+<p align="center">
+  <a href="https://github-analyzer-frontend-one.vercel.app/">🌐 Live Demo</a> •
+  <a href="https://github-analyzer-backend-vleh.onrender.com/">⚙️ Backend API</a>
+</p>
+
+---
+
+## 📊 Project Overview
+
+| Property     | Details |
+|-------------|--------|
+| Name        | AI GitHub Repo Analyzer |
+| Type        | Frontend |
+| Description | AI-powered GitHub profile & repository analyzer |
+| Author      | Tanmay |
+
+---
+
+## 🛠️ Tech Stack
+
+### 🔹 Frontend
+- React (Vite)  
+- Tailwind CSS  
+- Axios  
+- Recharts  
+
+### 🔹 Backend
+- Node.js  
+- Express.js  
+- Gemini API  
+- MongoDB  
 
 ---
 
 ## ✨ Features
 - 🔍 Analyze GitHub users & repositories  
 - 🤖 AI-generated insights and feedback  
-- 📊 Code quality scoring  
+- 📊 Code quality scoring system  
 - 🕘 History tracking  
 - ⚡ Fast and responsive UI  
 
 ---
 
-## 🌐 Live Demo
-👉[ Click Here ](https://github-analyzer-frontend-one.vercel.app/) 
-
----
-
 ## ⚙️ Setup
 
-### 1. Clone
-git clone https://github.com/codevdtanmay/Github-Analyzer-Frontend.git
-
-### 2. Install
+```bash
+git clone https://github.com/codevdtanmay/Github_Analyzer_Frontend.git
+cd Github_Analyzer_Frontend
 npm install
-
-### 3. Environment
-Create `.env`:
-VITE_API_URL=http://localhost:3000
-
-### 4. Run
 npm run dev
-
----
-
-## 🚀 Deployment
-- Frontend → Vercel  
-- Backend → Render  
-
----
-
-## ⚠️ Notes
-- Use environment variables (no hardcoding)  
-- Ensure backend is running locally  
-
----
-
-  
-
----
-
-<p align="center">⭐ Star this repo if you found it useful</p>
